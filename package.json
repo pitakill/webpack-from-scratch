@@ -1,0 +1,19 @@
+{
+  "name": "webpack-from-scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pitakill/webpack-from-scratch.git"
+  },
+  "author": "@pitakill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pitakill/webpack-from-scratch/issues"
+  },
+  "homepage": "https://github.com/pitakill/webpack-from-scratch#readme"
+}
