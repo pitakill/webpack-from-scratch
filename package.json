@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/pitakill/webpack-from-scratch/issues"
   },
-  "homepage": "https://github.com/pitakill/webpack-from-scratch#readme"
+  "homepage": "https://github.com/pitakill/webpack-from-scratch#readme",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
 }
