@@ -20,3 +20,9 @@ $ mkdir src dist # Crear directorios de archivos fuente y destino
 $ touch src/{example,index}.js # Crear archivos fuente
 $ touch dist/index.html # Crear archivo HTML para desplegar en navegador
 ```
+
+# Agregar archivo de configuración
+
+```sh
+$ touch webpack.config.js # Agregar archivo de configuración de webpack
+```
