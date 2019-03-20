@@ -1,0 +1,9 @@
+body {
+  margin: 0 auto;
+}
+
+p {
+  font-size: 3em;
+  text-align: center;
+  text-shadow: 15px 10px 2px #ccc;
+}
