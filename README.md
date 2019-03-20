@@ -32,3 +32,8 @@ $ touch webpack.config.js # Agregar archivo de configuración de webpack
 ```sh
 $ touch dist/styles.css # Agrega un archivo de estilos de css
 ```
+
+# Agregar configuración para manejar estilos de css con webpack
+```sh
+$ mv dist/styles.css src/styles.css # Cambia el archivo de estilos al directorio fuente
+```
