@@ -26,3 +26,9 @@ $ touch dist/index.html # Crear archivo HTML para desplegar en navegador
 ```sh
 $ touch webpack.config.js # Agregar archivo de configuración de webpack
 ```
+
+# Agregar un archivo de estilos css
+
+```sh
+$ touch dist/styles.css # Agrega un archivo de estilos de css
+```
