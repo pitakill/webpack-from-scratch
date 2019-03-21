@@ -42,3 +42,5 @@ $ mv dist/styles.css src/styles.css # Cambia el archivo de estilos al directorio
 ```sh
 $ mv src/style.{css,scss} # Cambiamos la extensión del archivo para ser interpetado como SCSS
 ```
+
+# Agregar una imagen para ser referenciada en JS
