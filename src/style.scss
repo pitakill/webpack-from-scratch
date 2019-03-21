@@ -9,11 +9,13 @@ $gap: 2px;
 }
 
 body {
+  background-image: url('./background-640x320.jpg');
+  color: white;
   margin: 0 auto;
 }
 
 p {
   font-size: 3em;
   text-align: center;
-  text-shadow: get-shadow(8, 5, 1, #333)
+  text-shadow: get-shadow(8, 5, 1, #ddd);
 }
