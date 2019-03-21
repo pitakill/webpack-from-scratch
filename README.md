@@ -37,3 +37,8 @@ $ touch dist/styles.css # Agrega un archivo de estilos de css
 ```sh
 $ mv dist/styles.css src/styles.css # Cambia el archivo de estilos al directorio fuente
 ```
+
+# Mover el archivo css para ser usado como SCSS
+```sh
+$ mv src/style.{css,scss} # Cambiamos la extensión del archivo para ser interpetado como SCSS
+```
