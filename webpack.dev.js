@@ -10,7 +10,8 @@ module.exports = merge(common, {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'dev: Webpack FTW!'
+      title: 'dev: Webpack FTW!',
+      template: 'src/index.html'
     })
   ],
 })

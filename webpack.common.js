@@ -3,14 +3,12 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 
 module.exports = {
-  entry: {
-    app: './src/index.js',
-    utitlities: './src/utilities.js'
-  },
+  entry: './src/index.js',
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Webpack FTW!'
+      title: 'React FTW!',
+      template: 'src/index.html'
     })
   ],
   output: {
