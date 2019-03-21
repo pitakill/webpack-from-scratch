@@ -7,6 +7,9 @@ module.exports = {
     app: './src/index.js',
     utitlities: './src/utilities.js'
   },
+  devServer: {
+    contentBase: './dist'
+  },
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
