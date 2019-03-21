@@ -46,3 +46,5 @@ $ mv src/style.{css,scss} # Cambiamos la extensión del archivo para ser interpe
 # Agregar una imagen para ser referenciada en JS
 
 # Agregar html webpack plugin y clean webpack plugin
+
+# Agregar webpack-dev-server para un mejor manejo del entorno desarrollo
