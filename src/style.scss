@@ -1,0 +1,19 @@
+$gap: 2px;
+
+@function calc-size($s, $m) {
+  @return $s * $m
+}
+
+@function get-shadow($f, $s, $t, $color) {
+  @return calc-size($f, $gap) calc-size($s, $gap) calc-size($t, $gap) $color;
+}
+
+body {
+  margin: 0 auto;
+}
+
+p {
+  font-size: 3em;
+  text-align: center;
+  text-shadow: get-shadow(8, 5, 1, #333)
+}

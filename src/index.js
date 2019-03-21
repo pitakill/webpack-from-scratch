@@ -1,4 +1,4 @@
 import example from './example'
-import './style.css'
+import './style.scss'
 
 example()
